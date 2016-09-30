@@ -1,0 +1,1005 @@
+body{
+	font-family:"Microsoft YaHei";
+	background: #f6f6f6;
+}
+.main{
+	width: 980px;
+	margin: 0 auto;
+}
+/*顶栏*/
+.top{
+	height: 40px;
+	width: 100%;
+    background: #121212;}
+.top-mid{
+	height: 40px;
+    width: 980px;
+    margin: 0 auto;
+    background: #121212;}
+.top-mid-home{
+	font-size: 12px;
+	line-height: 40px;
+	float: left;
+	font-family: "Microsofr YaHei";
+	background: url(../images/top-home.png) no-repeat left center;
+}
+.top-mid-home a{
+	text-decoration: none;
+	color: #ccc;
+	margin-left: 23px;
+}
+.top-mid-login{
+	font-size: 12px;
+	line-height: 40px;
+	float: right;	
+	font-family: "Microsofr YaHei";
+	background: url(../images/top-login.png) no-repeat left center;
+}
+.top-mid-login a{
+	text-decoration: none;	
+    color: #ccc;
+    margin-left: 28px;
+}
+/*导航栏*/
+.nav{
+	height: 82px;
+	border-top: 1px solid #363636;
+	border-bottom: 1px solid #343334;
+	background:#2b2a2b;
+}
+.nav-mid{
+	height: 82px;
+    width: 990px;
+	margin: 0 auto;	
+}
+.logo{
+    height: 82px;
+    width: 212px;
+    float: left;
+	background: url(../images/log.png) no-repeat left center;
+}
+.nav-text{
+    height: 20px;
+    margin-top: 32px;
+	margin-left: 80px;
+	float: left;
+}
+.nav-text li{
+	padding: 0 20px;
+    float: left;
+	font-size: 19px;
+	color: #d7d7d7;
+	font-family:"Microsoft YaHei";
+    border-right: 1px solid #000;
+}
+.nav-text li a:hover{
+	color: #0099ff;
+}
+
+.nav-search{
+	float: right;
+	margin-top: 26px;
+	background-color: #f6f6f6;
+
+}
+.nav-search input{
+	height: 32px;
+	width: 160px;
+	outline: none;
+	line-height: 32px;
+	border:none;
+	padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f6f6f6;
+}
+.btn{
+    width: 32px;
+    height: 32px;
+    float: right;
+    border-left: 1px solid #dfdfdf;
+    background-color: #f6f6f6;
+	background: url(../images/icon.png) no-repeat  center;    
+}
+/*游戏导航*/
+.game-nav{
+	height: 215px;
+	width: 981px;
+	border: 1px solid #dbdbdb;
+	margin: 0 auto;
+	margin-top: 18px;
+
+}
+.game-list{
+	float: left;
+}
+.game-list li{
+	height: 71px;
+	width: 116px;
+	font-size: 19px;
+	line-height: 72px;
+	text-align: center;
+	border-bottom: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+}
+.game-list .active{
+	height: 68px;
+	font-weight: bold;
+	border-right: none;
+	border-bottom: 4px solid #288bff;
+}
+.game-list li a{
+	color: #313131;
+    font-family:"Microsoft YaHei"
+}
+.game-list li:hover{
+	height: 68px;
+	font-weight: bold;
+	border-bottom: 4px solid #288bff;
+}
+.game-panel-one{
+	height: 215px;
+	width: 864px;
+	float: right;
+}
+.gamelist1{
+	height: 137px;
+	margin-left: 13px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.gamelist1 li{
+	height: 137px;
+	width: 80px;
+	margin: 0 13px;
+	overflow: hidden;
+	text-align: center;
+	float: left;
+
+}
+.gamelist1 li img{
+	display: block;
+	margin-top: 18px;
+}
+.gamelist1 li a{
+	display: block;
+	color: #292929;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.gamelist2,.gamelist3{
+	height: 14px;
+    margin-top: 14px;
+}
+.gamelist2 li,.gamelist3 li{
+	float: right;
+	width: 94px;
+	font-size: 14px;
+	text-align: center;
+	border-right: 1px solid #dbdbdb;
+}
+.gamelist2 li a,.gamelist3 li a{
+	color: #313131;
+}
+/*新闻部分*/
+.news{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.news-left{
+	width: 424px;
+    border-top: 1px solid #dbdbdb;
+    float: left;
+}
+.news-left-one{
+	width: 424px;
+}
+.news-left-one img{
+	position: absolute;
+}
+.news-left-one h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #555555;
+	line-height: 50px;
+	text-align: center;
+	margin-right: -32px;
+}
+.news-left-one p{
+	font-size: 14px;
+	color: #555555;
+	line-height: 24px;
+	text-indent: 2em;
+}
+.news-left-one p a{
+	font-size: 14px;
+	color: #555555;
+	line-height: 28px;
+}
+.news-left-two span{
+	color: #288bff;
+	font-size: 16px;
+}
+.news-left-two a{
+	display: inline-block;
+	color: #333333;
+	width: 330px;
+	font-size: 16px;
+	margin-left: 16px;
+	margin-right: 10px;
+}
+.news-left-two ul li{
+	color: #999999;
+	font-size: 14px;
+	line-height: 30px;
+}
+.news-left-two ul{
+	border-bottom: 1px dotted #c5c5c5;
+	border-top: 1px dotted #c5c5c5;
+	padding:10px 0;
+}
+.news-right{
+	position: relative;
+	width: 530px;
+	float: right;
+}
+.news-right-op{
+	top: 223px;
+	position: absolute;
+	width: 530px;
+	height: 40px;
+	background: #000;
+	opacity: 0.8;
+}
+.news-right-op h2{
+	float: left;
+	color: #f5f4f4;
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 12px;
+}
+.news-right-op ul{
+	margin-top: 19px;
+	margin-right: 10px;
+	float: right;
+}
+.news-right-op ul li{
+	width: 26px;
+	height: 4px;
+	margin-right: 8px;
+	float: right;
+	line-height: 40px;
+	background: #ffffff;
+}
+.news-right-op ul .select{
+	background-color: #34abff;
+}
+.news-right-two{
+	height: 108px;
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+.news-right-two h3{
+	margin-bottom: 26px;
+	text-align: center;
+	font-size: 18px;
+	color: #555555;
+}
+.news-right-two img{
+	float: left;
+}
+.news-right-two p{
+	text-indent: 2em;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.text{
+	height: 108px;
+	width: 316px;
+	float: right;
+}
+/*手游助手*/
+.mobilegames{
+	width: 980px;
+	margin: 0 auto;
+}
+.mobilegames-top{
+	width: 980px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.mobilegames-top span{
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 3px solid #288bff;
+}
+.mobilegames-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.mobilegames-dl img{
+	float: left;
+	margin-right: 12px;
+}
+.mobilegames-dl h2{
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	margin-bottom: 8px;
+}
+.mobilegames-dl p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 28px;
+}
+.mobilegames-dl ul{
+	margin-top: 20px;
+	height: 228px;
+}
+.mobilegames-dl ul li a{
+	display: inline-block;
+	width: 44px;
+	height: 20px;
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: 8px;
+	background: #288bff;
+	text-align: center;
+	line-height: 20px;
+}
+.mobilegames-dl ul li{
+	float: left;
+	width: 210px;
+	height: 80px;
+	margin-right: 34px;
+	margin-bottom: 34px;
+}
+/*特色栏目*/
+.column-forum{
+	width: 980px;
+	margin: 0 auto;
+}
+.ch-column{
+	width: 676x;
+	float: left;
+}
+.ch-column-top{
+	width: 676px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.ch-column-top span{
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 3px solid #288bff;
+}
+.ch-column-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.ch-column-dl img{
+	float: left;
+	margin-right: 26px;
+}
+.ch-column-dl h2{
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	margin-bottom: 8px;
+}
+.ch-column-dl p{
+	width: 502px;
+	height: 43px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 28px;
+	float: left;
+}
+.ch-column-dl ul{
+	margin-top: 20px;
+	height: 456px;
+}
+.ch-column-dl ul li{
+	width: 676px;
+	height: 95px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dfdfdf;
+}
+/*论坛活动*/
+.forum{
+	width: 276px;
+	float: right;;
+}
+.forum-top{
+	width: 276px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.forum-top span{
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 3px solid #288bff;
+}
+.forum-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.forum-game{
+	margin-top: 20px;
+}
+.forum-game li{
+	float: left;
+	width: 86px;
+	height: 148px;
+}
+.forum-game li a{
+	display: inline-block;
+	font-size: 12px;
+	color: #666666;
+	margin: 12px 0;
+	line-height: 18px;
+}
+.m-r{
+	margin-right: 9px;
+}
+.forum-game li span{
+	display: block;
+	position: relative;
+}
+.forum-game li span h3{
+	display: block;
+	top: 55px;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	background: #000;
+	opacity: 0.8;
+	color: #ffffff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.forum-game h2{
+	display: block;
+	top: 55px;
+	width: 80px;
+	height: 20px;
+	background: #288bff;
+	color: #ffffff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.forum-dl{
+	margin-top: 10px;
+}
+.forum-dl li{
+    width: 276px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dotted #dfdfdf;
+}
+.forum-dl li p{
+	display: inline-block;
+	font-size: 14px;
+	color: 333333;
+}
+.forum-dl li a{
+	float: right;
+	margin-top: 10px;
+	display: inline-block;
+    font-size: 14px;
+    width: 44px;
+    height: 20px;
+    background-color: #fe5a5a;
+    text-align: center;
+	line-height: 20px;
+}
+/*手游攻略和礼包*/
+.raiders-gift{
+	width: 980px;
+	margin: 0 auto;
+}
+.raiders{
+	width: 676x;
+	float: left;
+}
+.raiders-top{
+	width: 676px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.raiders-top span{
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 3px solid #288bff;
+}
+.raiders-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+/*手游攻略*/
+.raiders-pic{
+	width: 250px;
+	float: left;
+	margin-right: 12px;
+}
+.raiders-ad{
+	width: 250px;
+	margin-top: 15px;
+}
+.raiders-ad a{
+	display: block;
+	position: relative;
+}
+.raiders-ad a img{
+	width: 250px;
+	height: 141px;
+}
+.raiders-ad a p{
+	top: 112px;
+	display: block;
+	position: absolute;
+	width: 250px;
+	height: 29px;
+	opacity: 0.8;
+	background: #000;
+	text-align: center;
+	line-height: 29px;
+}
+.raiders-text{
+	float: left;
+	width: 404px;
+	margin-top: 15px;
+}
+.raiders-text-one h2{
+	font-size: 20px;
+	color: #288bff;
+	margin-bottom: 16px;
+}
+.raiders-text-one{
+	margin-bottom: 20px;
+}
+.raiders-text-one a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.raiders-text-two span{
+	color: #288bff;
+	font-size: 16px;
+}
+.raiders-text-two a{
+	display: inline-block;
+	color: #333333;
+	width: 314px;
+	font-size: 16px;
+	margin-left: 16px;
+	margin-right: 10px;
+}
+.raiders-text-two ul li{
+	color: #999999;
+	font-size: 14px;
+	line-height: 31px;
+}
+.raiders-text-two ul{
+	border-bottom: 1px dotted #c5c5c5;
+	border-top: 1px dotted #c5c5c5;
+	padding:10px 0;
+}
+.gift{
+	width: 276px;
+	float: right;
+}
+.gift-top{
+	width: 276px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.gift-top span{
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 3px solid #288bff;
+}
+.gift-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.dota-gift{
+	width: 276px;
+	height: 80px;
+	margin-top: 21px;
+	padding-bottom: 12px;
+	border-bottom: 1px dotted #c5c5c5;
+}
+.dota-gift img,.dota-gift h2,.dota-gift p,.dota-gift span{
+	float: left;
+}
+.dota-gift img{
+	margin-right: 10px;
+}
+.dota-gift h2{
+	font-size: 16px;
+	color: #288bff;
+}
+.dota-gift p{
+	font-size: 15px;
+	color: #333333;
+	line-height: 46px;
+}
+.dota-gift span{
+	font-size: 14px;
+	color: #666666;
+}
+.dota-gift a{
+	float: right;
+	width: 44px;
+	height: 20px;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 20px;
+	text-align: center;
+	background-color: #288bff;
+}
+.gift-dl{
+	width: 276px;
+	height: 380px;
+}
+.gift-dl li{
+	height: 40px;
+	width: 276px;
+	line-height: 38px;
+	border-bottom: 1px dotted #c5c5c5;
+}
+.gift-dl li p{
+	float: left;
+	font-size: 16px;
+	color: #333333;
+}
+.gift-dl li span{
+	float: right;
+	font-size: 12px;
+	color: #666666;
+}
+.gift-dl li a{
+	margin-top: 12px;
+	margin-left: 23px;
+	width: 44px;
+	height: 20px;
+	background-color: #288bff;
+	float: right;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 20px;
+	text-align: center;
+}
+/*评测和开服*/
+.evaluation-service{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.evaluation{
+	width: 676x;
+	float: left;
+}
+.evaluation-top{
+	width: 676px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.evaluation-top span{
+	cursor: pointer;
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	padding: 0 11px;
+	border-bottom: 1px solid dfdfdf;
+}
+.evaluation-top span:hover,.evaluation-top .current{
+	font-size: 18px;
+	color: #111111;
+	border-top: 3px solid #288bff;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: none;
+}
+.evaluation-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.evaluation-dl img{
+	float: left;
+	margin-right: 26px;
+}
+.evaluation-dl h2{
+	float: left;
+	font-size: 18px;
+	color: #111111;
+	margin-bottom: 8px;
+}
+.evaluation-dl p{
+	width: 502px;
+	height: 43px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	float: left;
+}
+.evaluation-dl ul{
+	margin-top: 20px;
+	height: 456px;
+}
+.evaluation-dl ul li{
+	width: 676px;
+	height: 90px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.service{
+	width: 276px;
+	float: right;
+}
+.service-top{
+	width: 276px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.service-top span{
+	cursor: pointer;
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	padding: 0 11px;
+	border-bottom: 1px solid dfdfdf;
+}
+.service-top span:hover,.service-top .current{
+	font-size: 18px;
+	color: #111111;
+	border-top: 3px solid #288bff;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: none;
+}
+.service-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.dota-service{
+	width: 276px;
+	height: 80px;
+	margin-top: 21px;
+	padding-bottom: 12px;
+	border-bottom: 1px dotted #c5c5c5;
+}
+.dota-service img,.dota-service h2,.dota-service p,.dota-service span{
+	float: left;
+}
+.dota-service img{
+	margin-right: 10px;
+}
+.dota-service h2{
+	font-size: 16px;
+	color: #288bff;
+}
+.dota-service p{
+	width: 180px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 46px;
+}
+.dota-service span{
+	font-size: 14px;
+	color: #666666;
+}
+.service-dl{
+	width: 276px;
+	height: 362px;
+}
+.service-dl li{
+	position: relative;
+	height: 40px;
+	width: 276px;
+	line-height: 38px;
+	border-bottom: 1px dotted #c5c5c5;
+}
+.service-dl li a{
+	position: absolute;
+	float: left;
+	left: 48px;
+	font-size: 16px;
+	color: #333333;
+}
+.service-dl li p{
+	position: absolute;
+	float: left;
+	font-size: 12px;
+	color: #288bff;
+}
+.service-dl li span{
+	position: absolute;
+	left: 211px;
+	float: left;
+	font-size: 12px;
+	color: #c5c5c5;
+}
+/*推荐游戏*/
+.gametypes{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 26px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.gametypes-top{
+	width: 980px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.gametypes-top span{
+	cursor: pointer;
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	padding: 0 11px;
+	margin-right: 19px;
+	border-bottom: 1px solid dfdfdf;
+}
+.gametypes-top span:hover,.gametypes-top .current{
+	font-size: 18px;
+	color: #111111;
+	border-top: 3px solid #288bff;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: none;
+}
+.gametypes-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.gametypes-list1 span{
+	display: inline-block;
+	width: 82px;
+	height: 100px;
+	margin-top: 20px;
+	margin-right: 41px;
+}
+.gametypes-list1 a{
+	width: 82px;
+	display: inline-block;
+	font-size: 14px;
+	color: #585858;
+	margin-top: 8px;
+	text-align: center;
+}
+.gametypes-list1 span:last-child{
+	margin-right: 0;
+}
+/*游戏合集*/
+.gamecolection{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 26px;
+}
+.gamecolection-top{
+	width: 980px;
+	height: 32px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.gamecolection-top span{
+	cursor: pointer;
+	line-height: 32px;
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	padding: 0 11px;
+	margin-right: 19px;
+	border-bottom: 1px solid dfdfdf;
+}
+.gamecolection-top span:hover,.gamecolection-top .select{
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 3px solid #288bff;
+}
+.gamecolection-top a{
+	line-height: 32px;
+	float: right;
+	font-size: 14px;
+	color: #585858;
+}
+.gamecolection-list1 span{
+	position: relative;
+	display: inline-block;
+	width: 176px;
+	height: 206px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.gamecolection-list1 span p{
+	position: absolute;
+    width: 59px;
+    height: 30px;
+    background: #000;
+    right: 0;
+    top: 146px;
+    left: 117px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.gamecolection-list1 a{
+	width: 176px;
+	display: inline-block;
+	font-size: 14px;
+	color: #585858;
+	margin-top: 8px;
+	text-align: center;
+}
+.gamecolection-list1 span:last-child{
+	margin-right: 0;
+}
+/*版权信息*/
+.copyright{
+	width: 100%;
+	height: 106px;
+	margin-top: 74px;
+	background: #292929;
+}
+.copyright-mid{
+	width: 980px;
+	margin:0 auto;
+	padding-top: 35px;
+	text-align: center;
+}
+.copyright-mid a{
+	font-size: 14px;
+	color: #787878;
+	padding: 0 14px;
+	border-left: 1px solid #787878;
+}
+.copyright-mid a:first-child{
+	border-left: none;
+}
+.copyright-mid p{
+	line-height: 48px;
+	display: block;
+	color: #787878;
+	text-align: center;
+}
